@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --main-color: #f8b281;
+    --secondary-color: #1b1b1b;
+}
+
+body {
+    color: white;
+}
+
+section {
+    padding: 5%;
+}
+
+.front-page {
+    min-height: 100vh;
+    color: white;
+}
+
+.hero {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.nav {
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.nav>svg {
+    margin-right: 30px;
+}
+
+.selling-point {
+    margin-top: 30vh;
+    font-family: "argonite", sans-serif;
+    text-shadow: 0px 4px 12px rgba(0, 0, 0, 0.49);
+    text-align: center;
+}
+
+.selling-point>h3 {
+    font-family: sans-serif;
+    text-shadow: 0px 4px 12px rgba(0, 0, 0, 0.49);
+}
+
+.ctas {
+    margin-top: 2rem;
+}
+
+.ctas>button {
+    padding: 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.216);
+    margin: 1rem;
+}
+
+.ctas-main {
+    background-color: var(--main-color);
+    color: var(--secondary-color);
+}
+
+.ctas-sec {
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+.about {
+    color: var(--secondary-color);
+}
+
+.our-story {
+    color: var(--secondary-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-content>h2 {
+    font-family: sans-serif;
+}
+
+.text-content>p {
+    line-height: 150%;
+    font-size: 1.2rem;
+}
+
+.classes {
+    color: var(--secondary-color);
+    text-align: center;
+    font-family: sans-serif;
+}
+.class-desc > h1 {
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+}
+.class-desc > h3 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+.videos {
+    display: flex;
+    justify-content: space-between;
+}
+video {
+    width: 100%;
+    border-radius: 1rem;
+}
+.pilates, .yoga, .meditation {
+    position: relative;
+}
+
+.videos h3 {
+    position: absolute;
+    color: var(--main-color);
+    text-shadow: 0px 2px 12px rgba(0, 0, 0, 0.408);
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+    font-size: 2rem;
+}
+
+.about {
+    color: var(--secondary-color);
+    text-align: center;
+    font-family: sans-serif;
+}
+.about h2{
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.our-story p {
+    margin-bottom: 1rem;
+    text-align: left;
+    width: 70vw;
+    margin-left: 13rem;
+    margin-bottom: 2rem;
+    line-height: 150%;
+    font-size: 1.2rem;
+}
+
